@@ -55,83 +55,72 @@ body{
 }
 
 .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     color: white;
-    border: solid 1px rgb(162, 1, 255);
+    border: solid 6px rgb(134, 4, 240);
     padding: 20px;
-    width: 30%;
-    height: 30%;
-    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-family:fantasy;
+}
+
+.divgradiante{
+        background-color: transparent; /* Color de fondo del div */
+        padding: 20px; /* Espaciado para que el fondo sea visible */
+        text-align: center; /* Centrar el texto */
 }
 
 .contenido h1{ 
-    padding: 12px;
-    text-align: center;
-    border: solid 2px rgb(125, 42, 202);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 3.5px rgb(155, 23, 243);
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700); /* Define el gradiente deseado */
+    background-clip: text; /* Aplicar el gradiente solo a la zona del texto */
+    padding: 5px 15px;
+    font-size: 3rem;
+    -webkit-background-clip: text; /* Prefijo para navegadores basados en WebKit */
+    color: transparent; /* Hacer el texto transparente para mostrar el gradiente */
+}
+
+.modP{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family: monospace;
     
 }
 
 ul {
     list-style-type: none; /* Elimina el tipo de viñeta predeterminado */
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: start;
+    font-family: monospace;
+    font-size: 1.2rem;
+    
 }
 
 li::before {
-    content: "\2022";
+    content: "\4553";
     color: rgb(138, 35, 255); 
     display: inline-block;
     width: 1em;
-    margin-left: -1em; /* Alinea el punto con el texto */
+    height: 1em;
+    margin-left: -4em; /* Alinea el punto con el texto */
+    margin-right: 0.4em;
 }
 
-#SectionCarrusel{ 
+.info{
 
-width: 100%;/*ancho*/
-height: 100vh;/*largo*/
-background-color: #000000;
-}
-
-.carrusel{ 
-    width: 100%;
-    height: 75%;
-    border:solid 1px red;
-    /*Carrusel*/
-}
-
-.divc{  
-    height: 25%;
-    width: 100%;
-    background: linear-gradient(to top, rgb(123, 43, 228), #000000); /*Carrusel*/
-}
-
-/* Estilos para el carrusel */
-.contenido {
-    /* Estilos para el contenedor principal */
-    width: 100%; /* Ajusta el ancho según tus necesidades */
-    overflow: hidden;
-    position: relative; /* Establece posición relativa para el carrusel */
-}
-
-.carrusel {
-    /* Estilos para el carrusel */
-    display: flex;
-    align-items: center;
-}
-
-#imagenCarrusel {
-    /* Estilos para la imagen */
-    width: 300px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
-}
-
-.anterior, .siguiente {
-    /* Estilos para los botones de navegación */
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
+    padding: 13px 20px;
+    border:solid 2px rgb(138, 35, 255);
+    margin-top: 10px;
+    background-color: #000000;
+    color: rgb(138, 35, 255);
+    font-size: 16px;
     cursor: pointer;
+     
+}
+.info:hover{
+background-color:rgb(138, 35, 255);
+color: #fff;
 }
 
 
