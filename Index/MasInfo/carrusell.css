@@ -1,0 +1,215 @@
+body {
+    background-color: #000000;
+}
+
+.barra-inicio {
+    background-color: rgba(82, 12, 100, 0.514);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.barra-inicio a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logo {  
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.logoh {  
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.contain{   
+    border: 6px solid #00FF00; /* Bordes*/
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado */
+    text-align: center; 
+}
+
+
+.titulo {
+    background: linear-gradient(45deg, #1c122e, #7e5cf8, #111111);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff; /* titulo blanco */
+    font-size: 24px; /* tttulo */
+}
+
+
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: inline;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-button {
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px; /* Tamaño */
+    border-radius: 10px; /* Borde redondo */
+    transition: background-color 0.3s; /* cambiar color del boton  */
+}
+
+.carousel-button:hover {
+    background-color: #ff2aca; /* Cambio color al pasar el mouse */
+}
+
+.carousel-button:focus {
+    outline: none;
+}
+
+/* estilo img y descrip */
+.additional-content {
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 20px; /* Espacio interior */
+}
+
+.additional-content h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #fff8f8; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.hh h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #fd7d05; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.additional-content img {
+    max-width: 100%; /* imagen no supera el ancho del contenedor */
+    border: 4px solid #ff8800; /* Borde blanco alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+}
+
+.additional-content p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #ff7b00; /* Color del texto */
+    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-family: monospace;
+}
+
+.redde h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #fc0000; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.redde img {
+    max-width: 100%; /* imagen no supera el ancho del contenedor */
+    border: 4px solid #ff0000; /* Borde blanco alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+}
+
+.redde p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #ff0000; /* Color del texto */
+    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-family: monospace;
+}
+
+
+.portal h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #1100ff; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.portal img {
+    max-width: 100%; /* imagen no supera el ancho del contenedor */
+    border: 4px solid #1900ff; /* Borde blanco alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+}
+
+.portal p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #2600ff; /* Color del texto */
+    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-family: monospace;
+}
+
+.gta h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #00ff0d; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.gta img {
+    max-width: 100%; /* imagen no supera el ancho del contenedor */
+    border: 4px solid #00ff0d; /* Borde blanco alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+}
+
+.gta p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #00ff0d; /* Color del texto */
+    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-family: monospace;
+}
+
+.r4 h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #666661; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-family: monospace;
+}
+
+.r4 img {
+    max-width: 100%; /* imagen no supera el ancho del contenedor */
+    border: 4px solid #666661; /* Borde blanco alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+}
+
+.r4 p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #666661; /* Color del texto */
+    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-family: monospace;
+}
+
+
+
