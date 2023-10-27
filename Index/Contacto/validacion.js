@@ -7,13 +7,12 @@ const errores = []; // Lista de errores acumulados
 //logo de error para agregar al msj
 const imgError = document.createElement("img");
 imgError.className = "imgError";
-imgError.src = "./img/error.png";
-
+imgError.src = "./imagenesChicas/error.png";
 
 //logo Ok para ingresar cuando cumple:
 const imgOk = document.createElement("img");
 imgOk.className = "imgOk";
-///////imgOk.src = "./imagenesChicas/ok.png";
+imgOk.src = "./imagenesChicas/ok.png";
 
 
 // Función para mostrar mensajes
@@ -25,7 +24,7 @@ function mostrarMensajes() {
     // Crear una lista ordenada para los msjs
     const ul = document.createElement("ul");
     ul.style.flexDirection = "column";
-    ul.style.gap = "50px";
+    ul.style.gap = "5px";
 
     // LI cada msj en la lista de errores, o un solo msj.
     const tituloDivMsj = document.createElement("li");

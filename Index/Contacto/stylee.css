@@ -5,6 +5,34 @@ body {
     text-align: center;
 }
 
+.barra-inicio {
+    background-color: rgba(82, 12, 100, 0.514);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.barra-inicio a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logo {  
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.logoh {  
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
 form {
     background-color: #2b2b2b;
     padding: 20px;
@@ -16,20 +44,18 @@ form {
 label {
     display: block;
     font-size: 16px;
-    color: #f00;
+    color: rgb(255, 255, 255);
 }
 
 input, textarea {
-    width: 80%;
+    width: 70%;
     padding: 10px;
     margin: 5px ;
-    border: slategray;
-    background-color: #3d3636;
-    color: #fff;
-    border: 2px solid rgb(74, 66, 80);
-    
+    border: none;
+    background-color: #4f4f50;
+    color: #ffffff;
+    border: 2px solid rgb(94, 2, 170);
 }
-
 
 button {
     background-color: #f00;
