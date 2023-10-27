@@ -1,17 +1,12 @@
 body {
-    background-image: url('./img/fondo2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #f7efef;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
     text-align: center;
 }
 
 form {
-    background-image: url('nombre-de-tu-imagen.jpg'); /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen */
     background-color: #2b2b2b;
-    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
@@ -21,7 +16,7 @@ form {
 label {
     display: block;
     font-size: 16px;
-    color: rgb(248, 243, 243);
+    color: #f00;
 }
 
 input, textarea {
@@ -54,7 +49,7 @@ button:hover {
     padding: 10px;
     background-color: #444;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color: #f00;
 }
 
 /* Estilo para los datos enviados */
@@ -69,7 +64,7 @@ button:hover {
 
 .datosEnviados h2 {
     font-size: 24px;
-    color: rgb(247, 226, 226);
+    color: #f00;
 }
 
 .datosEnviados p {
@@ -86,7 +81,7 @@ button:hover {
 
 /* Estilo para el botón Aceptar en los mensajes */
 .btnAceptar {
-    background-color: rgb(252, 0, 0);
+    background-color: #f00;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -102,4 +97,3 @@ button:hover {
 .btnAceptar.hoverOk {
     background-color: #0f0;
 }
-
