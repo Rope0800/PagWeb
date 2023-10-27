@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto Gamer</title>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+    <form class="contactoForm">
+        <div>
+            <label for="nombreContacto">Nombre:</label>
+            <input type="text" id="nombreContacto" name="nombreContacto" required>
+        </div>
+        <div>
+            <label for="correoElectronicoContacto">Correo Electrónico:</label>
+            <input type="email" id="correoElectronicoContacto" name="correoElectronicoContacto" required>
+        </div>
+        <div>
+            <label for="mensajeContacto">Mensaje:</label>
+            <textarea id="mensajeContacto" name="mensajeContacto" required maxlength="200"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <div class="divMensaje">
+        <button class="btnAceptar">Aceptar</button>
+    </div>
+
+    <script src="validacion.js"></script>
+</body>
+</html>
+
+

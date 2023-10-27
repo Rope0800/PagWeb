@@ -1,0 +1,105 @@
+body {
+    background-image: url('./img/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f7efef;
+    text-align: center;
+}
+
+form {
+    background-image: url('nombre-de-tu-imagen.jpg'); /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen */
+    background-color: #2b2b2b;
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: rgb(248, 243, 243);
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px ;
+    border: slategray;
+    background-color: #3d3636;
+    color: #fff;
+    border: 2px solid rgb(74, 66, 80);
+    
+}
+
+
+button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d00;
+}
+
+.divMensaje {
+    margin: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo para los datos enviados */
+.datosEnviados {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.datosEnviados h2 {
+    font-size: 24px;
+    color: rgb(247, 226, 226);
+}
+
+.datosEnviados p {
+    font-size: 18px;
+}
+
+.imgError {
+    width: 30px;
+}
+
+.imgOk {
+    width: 30px;
+}
+
+/* Estilo para el botón Aceptar en los mensajes */
+.btnAceptar {
+    background-color: rgb(252, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btnAceptar.hoverError {
+    background-color: #d00;
+}
+
+.btnAceptar.hoverOk {
+    background-color: #0f0;
+}
+
