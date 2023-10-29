@@ -7,12 +7,12 @@ const errores = []; // Lista de errores acumulados
 //logo de error para agregar al msj
 const imgError = document.createElement("img");
 imgError.className = "imgError";
-imgError.src = "./imagenesChicas/error.png";
+imgError.src = "./img/ERROR.png";
 
 //logo Ok para ingresar cuando cumple:
 const imgOk = document.createElement("img");
 imgOk.className = "imgOk";
-imgOk.src = "./imagenesChicas/ok.png";
+imgOk.src = "./img/todoOK.png";
 
 
 // Función para mostrar mensajes
@@ -104,7 +104,7 @@ formulario.addEventListener("submit", function (event) {
         btnMsjAceptar.classList.add("hoverOk");
         mostrarMensajes();
 
-        // Evento click para la card de mensajes
+        // click para la card de mensajes
         btnMsjAceptar.addEventListener('click', function () {
             //ocultamos el div con los mensajes
             divMsj.classList.remove("mostrarMsj");
@@ -113,9 +113,9 @@ formulario.addEventListener("submit", function (event) {
         });
     } else {
         mostrarMensajes();
-        // Evento click para la card de mensajes
+       
         btnMsjAceptar.addEventListener('click', function () {
-            //ocultamos el div con los mensajes 
+            
             divMsj.classList.remove("mostrarMsj");
         });
     }
