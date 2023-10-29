@@ -7,7 +7,7 @@ const errores = []; // Lista de errores acumulados
 //logo de error para agregar al msj
 const imgError = document.createElement("img");
 imgError.className = "imgError";
-imgError.src = "./img/ERROR.png";
+imgError.src = "./img/error2png";
 
 //logo Ok para ingresar cuando cumple:
 const imgOk = document.createElement("img");
