@@ -99,37 +99,37 @@ body {
 }
 
 .additional-content h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #fff8f8; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px; 
+    color: #fff8f8; 
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
 .hh h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #fd7d05; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px; 
+    color: #fd7d05; 
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
 .additional-content img {
-    max-width: 100%; /* imagen no supera el ancho del contenedor */
-    border: 4px solid #ff8800; /* Borde blanco alrededor de la imagen */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+    max-width: 100%; 
+    border: 4px solid #ff8800;
+    border-radius: 10px; 
+    margin: 10px 0; 
 }
 
 .additional-content p {
-    font-size: 18px; /* Tamaño de fuente del párrafo */
-    color: #ff7b00; /* Color del texto */
-    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-size: 18px; 
+    color: #ff7b00; 
+    margin-top: 20px; 
     font-family: monospace;
 }
 
 .redde h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #fc0000; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px; 
+    color: #fc0000; 
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
@@ -141,73 +141,73 @@ body {
 }
 
 .redde p {
-    font-size: 18px; /* Tamaño de fuente del párrafo */
-    color: #ff0000; /* Color del texto */
-    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-size: 18px; 
+    color: #ff0000; 
+    margin-top: 20px; 
     font-family: monospace;
 }
 
 
 .portal h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #1100ff; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px; 
+    color: #1100ff; 
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
 .portal img {
-    max-width: 100%; /* imagen no supera el ancho del contenedor */
-    border: 4px solid #1900ff; /* Borde blanco alrededor de la imagen */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+    max-width: 100%; 
+    border: 4px solid #1900ff; 
+    border-radius: 10px; 
+    margin: 10px 0; 
 }
 
 .portal p {
-    font-size: 18px; /* Tamaño de fuente del párrafo */
-    color: #2600ff; /* Color del texto */
-    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-size: 18px; 
+    color: #2600ff; 
+    margin-top: 20px; 
     font-family: monospace;
 }
 
 .gta h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #00ff0d; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px;
+    color: #00ff0d;
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
 .gta img {
-    max-width: 100%; /* imagen no supera el ancho del contenedor */
-    border: 4px solid #00ff0d; /* Borde blanco alrededor de la imagen */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+    max-width: 100%; 
+    border: 4px solid #00ff0d; 
+    border-radius: 10px; 
+    margin: 10px 0; 
 }
 
 .gta p {
-    font-size: 18px; /* Tamaño de fuente del párrafo */
-    color: #00ff0d; /* Color del texto */
-    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-size: 18px; 
+    color: #00ff0d; 
+    margin-top: 20px; 
     font-family: monospace;
 }
 
 .r4 h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #666661; /* Color del texto */
-    margin-bottom: 20px; /* Espacio inferior entre el título y la imagen */
+    font-size: 24px; 
+    color: #666661; 
+    margin-bottom: 20px; 
     font-family: monospace;
 }
 
 .r4 img {
-    max-width: 100%; /* imagen no supera el ancho del contenedor */
-    border: 4px solid #666661; /* Borde blanco alrededor de la imagen */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 10px 0; /* Espacio vertical entre la imagen y el párrafo */
+    max-width: 100%; 
+    border: 4px solid #666661; 
+    border-radius: 10px; 
+    margin: 10px 0; 
 }
 
 .r4 p {
-    font-size: 18px; /* Tamaño de fuente del párrafo */
-    color: #666661; /* Color del texto */
-    margin-top: 20px; /* Espacio superior entre el párrafo y el final del contenedor */
+    font-size: 18px; 
+    color: #666661; 
+    margin-top: 20px; 
     font-family: monospace;
 }
 
